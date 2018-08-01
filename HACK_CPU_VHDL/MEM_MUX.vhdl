@@ -34,12 +34,12 @@ entity MEM_MUX is
 			data_a, data_b : in STD_LOGIC_VECTOR(15 downto 0);
 			addr_a, addr_b : in STD_LOGIC_VECTOR(14 downto 0);
 			we_a, we_b : in STD_LOGIC;
-			q_a, q_b : out STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
+			q_a, q_b : out STD_LOGIC_VECTOR(15 downto 0);
 			
 			-- Physical RAM chip controls
 			EXT_RAM_Q : in STD_LOGIC_VECTOR(15 downto 0);
-			EXT_RAM_D : out STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
-			EXT_RAM_A : out STD_LOGIC_VECTOR(14 downto 0) := (others => '0');
+			EXT_RAM_D : out STD_LOGIC_VECTOR(15 downto 0);
+			EXT_RAM_A : out STD_LOGIC_VECTOR(14 downto 0);
 			EXT_RAM_W : out STD_LOGIC := '0'
 			 );
 end MEM_MUX;

@@ -36,7 +36,7 @@ entity RAM_CTRL is
 			RAM_Q : out STD_LOGIC_VECTOR(15 downto 0);
 			
 			-- External RAM connections
-			RAM_EXT_D : inout STD_LOGIC_VECTOR(15 downto 0) := (others => 'Z');
+			RAM_EXT_D : inout STD_LOGIC_VECTOR(15 downto 0);
 			RAM_EXT_A : out STD_LOGIC_VECTOR(14 downto 0);
 			RAM_EXT_W : out STD_LOGIC := '0';
 			RAM_EXT_NOE : out STD_LOGIC := '1'
@@ -46,7 +46,7 @@ end RAM_CTRL;
 
 architecture Behavioral of RAM_CTRL is
 signal action : unsigned(1 downto 0) := (others => '0');
-signal write_cache, read_cache : STD_LOGIC_VECTOR(15 downto 0) := (others => '0');
+signal write_cache, read_cache : STD_LOGIC_VECTOR(15 downto 0) := (others => 'Z');
 signal write_f : STD_LOGIC;
 begin
 
