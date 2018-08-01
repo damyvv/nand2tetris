@@ -16,8 +16,8 @@ Write the VHDL implementation | Not started
 Hardware schematic | Not started
 PCB layout and routing | Not started
 Create programmer | Not started
-Write assembler | Completed
-Write VM compiler | Completed
+Write assembler | **Completed**
+Write VM compiler | **Completed**
 Write JACK compiler | Not started
 Write OS | Not started
 
