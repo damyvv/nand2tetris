@@ -13,6 +13,7 @@ archiv
 *.cfg
 *.cmd
 *.cst
+*.do
 *.fdc
 *.htm
 *.html
@@ -26,3 +27,4 @@ archiv
 *.xml
 *.zip
 *~
+HACK_CPU_VHDL_TESTING
