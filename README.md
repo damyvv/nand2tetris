@@ -12,7 +12,7 @@ The current status of each phase is shown in the table and will be updated throu
 
 Phase | Status
 --- | ---
-Write the VHDL implementation | Not started
+Write the VHDL implementation | *WIP*
 Hardware schematic | Not started
 PCB layout and routing | Not started
 Create programmer | Not started
